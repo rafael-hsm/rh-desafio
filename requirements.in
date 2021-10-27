@@ -2,3 +2,10 @@ asgiref==3.2.10
 Django==3.1.1
 pytz==2020.1
 sqlparse==0.3.1
+python-decouple
+dj-database-url
+psycopg2-binary
+django-s3-folder-storage
+pytest
+pytest-django
+collectfast

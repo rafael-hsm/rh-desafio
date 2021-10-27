@@ -1,4 +1,5 @@
-﻿# Desafio RH
+﻿[![.github/workflows/python-app.yml](https://github.com/rafael-hsm/rh-desafio/actions/workflows/python-app.yml/badge.svg)](https://github.com/rafael-hsm/rh-desafio/actions/workflows/python-app.yml)
+# Desafio RH
 
 Boa tarde!, para esse desafio recomendamos conhecimento basico em alguns frameworks e python!
 
