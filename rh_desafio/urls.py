@@ -7,5 +7,6 @@ from core.views import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/', include('core.urls', namespace='core')),
+    path('', include('core.urls', namespace='core')),
+
 ]
