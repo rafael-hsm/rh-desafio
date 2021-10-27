@@ -1,6 +1,6 @@
 from django.urls import path
 
-app_name = 'core'
+app_name = 'rh_desafio.core'
 
 urlpatterns = [
 
