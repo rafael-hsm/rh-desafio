@@ -8,27 +8,50 @@ asgiref==3.2.10
     # via
     #   -r requirements.in
     #   django
+attrs==21.2.0
+    # via pytest
 boto3==1.19.4
     # via django-s3-folder-storage
 botocore==1.22.4
     # via
     #   boto3
     #   s3transfer
+collectfast==2.2.0
+    # via -r requirements.in
 dj-database-url==0.5.0
     # via -r requirements.in
 django==3.1.1
     # via
     #   -r requirements.in
+    #   collectfast
     #   django-storages
 django-s3-folder-storage==0.5
     # via -r requirements.in
 django-storages==1.12.2
-    # via django-s3-folder-storage
+    # via
+    #   collectfast
+    #   django-s3-folder-storage
+iniconfig==1.1.1
+    # via pytest
 jmespath==0.10.0
     # via
     #   boto3
     #   botocore
+packaging==21.0
+    # via pytest
+pluggy==1.0.0
+    # via pytest
 psycopg2-binary==2.9.1
+    # via -r requirements.in
+py==1.10.0
+    # via pytest
+pyparsing==3.0.2
+    # via packaging
+pytest==6.2.5
+    # via
+    #   -r requirements.in
+    #   pytest-django
+pytest-django==4.4.0
     # via -r requirements.in
 python-dateutil==2.8.2
     # via botocore
@@ -46,5 +69,9 @@ sqlparse==0.3.1
     # via
     #   -r requirements.in
     #   django
+toml==0.10.2
+    # via pytest
+typing-extensions==3.10.0.2
+    # via collectfast
 urllib3==1.26.7
     # via botocore
