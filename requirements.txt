@@ -39,6 +39,8 @@ jmespath==0.10.0
     #   botocore
 packaging==21.0
     # via pytest
+pillow==8.4.0
+    # via -r requirements.in
 pluggy==1.0.0
     # via pytest
 psycopg2-binary==2.9.1

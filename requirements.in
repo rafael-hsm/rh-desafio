@@ -9,3 +9,4 @@ django-s3-folder-storage
 pytest
 pytest-django
 collectfast
+Pillow
