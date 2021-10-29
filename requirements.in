@@ -10,3 +10,5 @@ pytest
 pytest-django
 collectfast
 Pillow
+django-debug-toolbar
+sentry-sdk
