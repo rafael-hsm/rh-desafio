@@ -36,6 +36,8 @@ django-storages==1.12.2
     # via
     #   collectfast
     #   django-s3-folder-storage
+gunicorn==20.1.0
+    # via -r requirements.in
 iniconfig==1.1.1
     # via pytest
 jmespath==0.10.0
@@ -87,3 +89,6 @@ urllib3==1.26.7
     # via
     #   botocore
     #   sentry-sdk
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
