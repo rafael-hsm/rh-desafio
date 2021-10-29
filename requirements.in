@@ -12,3 +12,4 @@ collectfast
 Pillow
 django-debug-toolbar
 sentry-sdk
+gunicorn
